@@ -1,0 +1,63 @@
+#div1{
+    border: 5px solid;
+    border-color: rgb(169, 212, 49);
+}
+
+h2[lang="es-MX"]{
+    border: 5pt solid;
+    border-color: rgb(182, 17, 17);
+}
+
+h2[title="otro"]{
+    border: 0.15cm;
+    border-style: dotted;
+    border-color: rgb(136, 148, 156);
+}
+
+.grande{
+    font-size: 2em;
+}
+
+.azul{
+    color: rgb(4, 0, 255);
+    font-weight: bold;
+}
+
+h2[title]{
+    color: rgb(163, 60, 231);
+}
+
+p+p {
+    border-style: solid;
+  }
+  
+  div+p {
+    font-size: 50px;
+  }
+
+  div>article {
+    border-style: solid;
+  }
+
+  br~b {
+      color: blueviolet;
+      font-style: italic;
+  }
+
+  p#blue{
+      font-size: 30px;
+      font-family: fantasy;
+      color: blue;
+  }
+
+  p~p{
+      background-color: rgb(219, 175, 175);
+  }
+
+  h2[title ~= "otro"]{
+      background-color: aqua;
+  }
+
+  h2[lang |= "es"]{
+      background-color: bisque;
+  }
